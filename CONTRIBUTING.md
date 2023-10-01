@@ -2,7 +2,7 @@
 
 
 
-- Fork this repository - [How to fork a repository](https://services.github.com/on-demand/intro-to-github/create-pull-request)
+- Fork this repository 
 - Clone the forked repository into local space
 - Choose any topic from any language you know and you have to put all the code which you know or you have learn with the comments explaning the code you can upload.
 - Paste the code in new file and name it in following format:
