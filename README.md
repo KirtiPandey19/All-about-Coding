@@ -24,5 +24,5 @@ In this repository, you can find the solutions (as source code) for the any kind
 
 | Name                                                                                                                               | Country               | Programming Language           | Where to find you<br><sup>(add all links to your profiles eg on Hackerrank, Codechef...)</sup>|
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------------|-----------------------------------------------------------------------------------------------|
-| [Yashwant Aditya](https://github.com/yashwantaditya009/) <br> <img src="https://github.com/yashwantaditya009.png" width="100" height="100">               | INDIA             | Python, SQL, R                            |   [Hackerrank](https://www.hackerrank.com/yashwantaditya01?hr_r=1)                                                           
-| 
+| [Yashwant Aditya](https://github.com/yashwantaditya009/) <br> <img src="https://github.com/Naman9761.png" width="100" height="100">               | INDIA             | Python, SQL, R                            |   [Hackerrank](https://leetcode.com/Naman9761/)                                                           
+
