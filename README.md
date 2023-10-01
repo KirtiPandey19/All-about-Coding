@@ -6,12 +6,11 @@ In this repository, you can find the solutions (as source code) for the any kind
 ### WHY SHOULD YOU CONTRIBUTE TO THIS REPOSITORY?
 - Beginner-friendly
 - Create your first Pull Request on GitHub
-- Start with any problem of your choice on [HackerRank](https://hackerrank.com), add programes file  etc
 - Chance of receiving a T-Shirt for participating in the [Hacktoberfest2023](https://hacktoberfest.com/)
 
 ### HOW TO CONTRIBUTE? (Updated)
 - For contributions in this repository, please read `CONTRIBUTING.md` first. (Please pull the changes from this repo if you have already forked the repository and are facing conflicts)
-- If you like the repository, please star it.
+- If you like the repository, please star it and follow me and i'll also .
 - And don't forget to add your user name and profile URL link in README.md.
 
 ### LEARNING RESOURCES TO BE FOLLOWED:
