@@ -1,0 +1,79 @@
+public class ReverseLinkedList {
+    Node head;
+    Node tail;
+    int size = 0;
+    ReverseLinkedList() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
+
+    class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    public void Insert(int data) {
+        Node newnode = new Node(data);
+        newnode.next = null;
+        if (head == null) {
+            head = tail = newnode;
+        } else {
+            tail.next = newnode;
+            tail = newnode;
+        }
+    }
+
+    public void display() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+            size++;
+        }
+    }
+
+    public void reverseLinkedList() {
+        Node prev = null;
+        Node current;
+        Node nextnode;
+        current = nextnode = head;
+        while (nextnode != null) {
+            nextnode = nextnode.next;
+            current.next = prev;
+            prev = current;
+            current = nextnode;
+        }
+        head = prev;
+    }
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode() {}
+     *     ListNode(int val) { this.val = val; }
+     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * }
+     */
+    public static void main(String[] args) {
+        ReverseLinkedList list = new ReverseLinkedList();
+        list.Insert(73);
+        list.Insert(30);
+        list.Insert(300);
+        list.Insert(32);
+        System.out.println("Original LL");
+        list.display();
+        System.out.println();
+        System.out.println("Reversed LL");
+        list.reverseLinkedList();
+        list.display();
+
+        }
+
+}
